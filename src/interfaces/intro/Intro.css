@@ -52,6 +52,9 @@
   25% {
     transform: translateY(-50px);
   }
+  50% {
+    transform: translateY(-100px);
+  }
 }
 .intro-background{
   clip-path: polygon(30% 0, 87% 3%, 100% 60%, 61% 72%);
