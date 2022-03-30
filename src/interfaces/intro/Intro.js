@@ -11,6 +11,7 @@ function Intro() {
             <div className='intro-title-wrapper'>
              <div className='intro-title-item'>Full-Stack Web Developer</div>
              <div className='intro-title-item'>Bachelor of Computer Science</div>
+             <div className='intro-title-item'>Bachelor of science and technology</div>
             </div>
           </div>
           <div className='intro-description'>
