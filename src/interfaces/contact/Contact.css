@@ -1,0 +1,92 @@
+.contact2{
+  height: 90vh;
+  position: relative;
+  background-color: rgb(10, 20, 22);
+  padding: 80px;
+}
+.contact{
+  height: 90vh;
+  position: relative;
+  background-color: rgb(10, 20, 22);
+  padding: 80px;
+}
+
+.contact-background{
+  width: 20px;
+  height: 90%;
+  background: linear-gradient(
+    to left,
+    rgb(12, 9, 10),
+    rgb(190, 31, 79)
+    );
+  position: absolute;
+}
+
+.contact-wrapper{
+ padding: 50px;
+ display: flex;
+}
+
+.contact-left{
+  flex: 1;
+  color: aliceblue;
+}
+
+.contact-right{
+  flex: 1;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-title{
+  font-size: 60px;
+  width: 80%;
+}
+
+.contact-info-item{
+  display: flex;
+  align-items: center;
+}
+
+.contact-desc{
+  align-items: left;
+  font-weight: 200;
+}
+
+form{
+  margin-top: 20px;
+}
+
+input{
+  width: 50%;
+  height: 50px;
+  border: none;
+  border-bottom: 3px solid rgb(190, 31, 79);
+  margin: 10px 0px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+textarea{
+  width: 100%;
+  margin: 10px 0px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+button{
+  border: none;
+  padding: 15px;
+  background: linear-gradient(
+    to bottom right,
+    rgb(85, 35, 46),
+    rgb(3, 19, 19)
+    );
+  color: rgb(236, 156, 156);
+  border-radius: 30px;
+  font-weight: 500;
+  cursor: pointer;
+}

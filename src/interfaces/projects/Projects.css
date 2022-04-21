@@ -1,0 +1,24 @@
+.projects{
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(10, 20, 22);
+  padding: 80px;
+}
+
+.projects-list{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  color: aliceblue;
+}
+
+.projects-general-desc{
+  color: aliceblue;
+}
+
+.projects-list{
+  color: aliceblue;
+}

@@ -3,6 +3,7 @@ import './Intro.css';
 function Intro() {
   return (
     <div className="intro">
+          <div className='intro-background'></div>
      <div className='intro-left'>
         <div className='intro-left-wrapper'>
           <h2 className='intro-intro'>Hello, my name is</h2>
@@ -20,7 +21,7 @@ function Intro() {
         </div>
      </div>
      <div className='intro-right'>
-        <div className='intro-background'></div>
+        {/* <div className='intro-background'></div> */}
      </div>
     </div>
   );

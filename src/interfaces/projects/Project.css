@@ -1,0 +1,41 @@
+.project{
+  width: 30%;
+  height: 40vh;
+  margin: 20px 10px;
+  border: 2px solid rgb(100, 100 ,100);
+  overflow: hidden;
+  background: linear-gradient(
+    to bottom right,
+    rgb(85, 35, 46),
+    rgb(3, 19, 19)
+    );
+}
+
+.project-browser{
+  height: 20px;
+  background-color: rgb(122, 121, 119);
+  display: flex;
+  align-items: center;
+}
+
+.project-header{
+  position: sticky;
+  z-index: 2;
+}
+
+.project-circle{
+  width: 6px;
+  height: 6px;
+  background-color: azure;
+  border-radius: 50%;
+  margin: 3px;
+}
+
+.project-img{
+  width: 100%;
+  transition: all 10s ease;
+}
+
+.project-img:hover{
+  transform: translateY(-100%);
+}
