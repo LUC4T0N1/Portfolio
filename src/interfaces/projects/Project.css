@@ -39,3 +39,20 @@
 .project-img:hover{
   transform: translateY(-100%);
 }
+
+@media screen and (max-width: 800px) {
+  .project {
+    width: 100%;
+    height: 100%;
+  }
+
+  .project-img{
+    width: 100%;
+    transition: all 10s ease;
+  }
+  
+  .project-img:active{
+    transform: translateY(-100%);
+  }
+
+}

@@ -3,7 +3,6 @@ import ME from '../../img/me.PNG';
 
 function About() {
   return (
-    <div className="about2">
       <div className="about">
         <div className='about-left'>
           <div className='about-background'></div>
@@ -40,7 +39,6 @@ function About() {
           </p>
         </div>
       </div>
-    </div>
   );
 }
 

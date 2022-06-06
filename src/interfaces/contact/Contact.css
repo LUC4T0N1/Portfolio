@@ -1,13 +1,6 @@
-.contact2{
-  height: 90vh;
-  position: relative;
-  background-color: rgb(10, 20, 22);
-  padding: 80px;
-}
 .contact{
-  height: 90vh;
+  height: 75vh;
   position: relative;
-  background-color: rgb(10, 20, 22);
   padding: 80px;
 }
 
@@ -89,4 +82,46 @@ button{
   border-radius: 30px;
   font-weight: 500;
   cursor: pointer;
+}
+
+.error-email{
+  color: rgb(131, 27, 27);
+}
+
+@media screen and (max-width: 800px) {
+  .contact{
+    padding: 0px;
+    height: 95vh;
+  }
+
+  .contact-wrapper {
+    flex-direction: column;
+    padding: 0px 50px;
+  }
+
+  .contact-title{
+    font-size: 30px;
+  }
+
+  .contact-info-item{
+    margin: 20px 0px;
+    width: 100%;
+  }
+
+  .contact-desc{
+    display: none;
+  }
+
+  form{
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  input{
+    width: 35%;
+    height: 40px;
+    margin: 10px;
+    margin-left: 0;
+  }
 }

@@ -1,9 +1,3 @@
-.about2{
-  background-color: rgb(10, 20, 22);
-  padding: 80px;
-}
-
-
 .about{
   display: flex;
   position: relative;
@@ -16,8 +10,8 @@
 
   background: linear-gradient(
     to bottom right,
-    rgb(85, 35, 46),
-    rgb(3, 19, 19)
+    rgb(114, 24, 51),
+    rgb(12, 9, 10)
     );
   
 }
@@ -56,11 +50,33 @@
 .about-content{
   margin: 20px 20px 0px 0px;
   font-weight: 300;
-  color: rgb(145, 144, 142);
+  color: rgb(255, 255, 254);
 }
 
 .about-title{
 
-  color: rgb(145, 144, 142);
+  color: rgb(255, 255, 254);
+}
+
+@media screen and (max-width: 800px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+    margin-left: 22px;
+  }
+
+  .about-left {
+    width: 100%;
+  }
+
+  .about-card {
+    height: 30vh;
+  }
+
+  .about-right{
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
 }
 
