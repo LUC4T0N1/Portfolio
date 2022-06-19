@@ -1,13 +1,15 @@
+import {useTranslation} from 'react-i18next';
 import './Contact.css';
 import ContactForm from './ContactForm';
 
 function Contact() {
+  const {t} = useTranslation()
   return (
     <div className="contact">
      <div className='contact-background'></div>
        <div className='contact-wrapper'>
          <div className='contact-left'>
-          <h1 className='contact-title'>Let's discuss your project</h1>
+          <h1 className='contact-title'>{t('my_contacts')}</h1>
           <div className='contact-info'>
             <div className="contact-info-item">
               {/* icone de telefone*/}
@@ -21,7 +23,7 @@ function Contact() {
          </div>
          <div className='contact-right'>
           <p className='contact-desc'>
-            <b>What's your story?</b> Get in touch. Always freelancing if the reight project comes along
+          {t('contact_desc')}
           </p>
           <ContactForm/>
          </div>

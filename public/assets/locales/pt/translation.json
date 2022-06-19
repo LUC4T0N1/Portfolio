@@ -1,6 +1,26 @@
 {
   "hello": "Olá, meu nome é",
   "job": "Desenvolvedor Web Full-Stack",
+  "bcc": "Bacharel em Ciência da Computação",
+  "bct": "Bacharel em Ciência e Tecnologia",
+  "intro_description": "Eu estruturo e desenvolvo sistemas web completos, passando pelo banco de dados, back end e front end",
+
+
+  "about_me": "Sobre Mim",
+  "about_me_p1": "sssssssssss sssss ssssss sssssss ssssssssss ssssss sssssss sssssssssss \n ssssssssssssssssss sssssssss ssssss",
+  "about_me_p2": "zzzzzzzzzz zzzzzzz zzzzzz\nzzzzz zzzzzz zzzzzzzzzzzz zzzzzzzzzzz\nzzzzzzzz zzzzzzzzz zzzzzzzzzzzzzzzzzzzzzzzz",
+  "about_me_p3": "aaaaaaaaaa aaaaaaa aaaaaaaaa\naaaa aaaaaaaaaaaaaaaaa aaaaaaaaaaaaa\naaaaaaaaa  aaaaaa aaaaaaaaaaaaaaaaaaaa",
+
+
+  "projects": "Esses são meus principais projetos",
+  "projects_general_desc": "klçjaasasa  asas  asaiodj",
+
+  "my_contacts": "Meus Contatos",
+  "contact_desc": "Achou meu trabalho interessante? Vamos conversar! Me envie um e-mail com suas idéias.",
+
+  "user_name_placeholder": "Nome",
+  "subject_placeholder": "Assunto",
+  "message_placeholder": "Mensagem",
   "user_name_required": "Seu nome é obrigatório",
   "user_subject_required": "O assunto do e-mail é obrigatório!",
   "user_email_required": "Seu e-mail é obrigatório!",

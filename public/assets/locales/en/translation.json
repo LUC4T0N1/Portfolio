@@ -1,6 +1,26 @@
 {
   "hello": "Hello, my name is",
   "job": "Full-Stack Web Developer",
+  "bcc": "Bachelor of Computer Science",
+  "bct": "Bachelor of Science and Technology",
+  "intro_description": "I structure and develop complete web systems, going through the database, back end and front end",
+
+
+  "about_me": "About Me",
+  "about_me_p1": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "about_me_p2": "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+  "about_me_p3": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+
+
+  "projects": "Here are my main projects",
+  "projects_general_desc": "klçjahndiohasiodh asiodaioshjdoiasjd doiahsdiohajsodih aosdhiodasjid daoisdioashjdio ioashjdoiahjsiodj d doiahsdiohajsodih aosdhiodasjid daoisdioashjdio ioashjdoiahjsiodj",
+
+  "my_contacts": "My Contacts",
+  "contact_desc": "Got interested in my work? Let's talk! Send me an e-mail with your ideas.",
+
+  "user_name_placeholder": "Name",
+  "subject_placeholder": "Subject",
+  "message_placeholder": "Message",
   "user_name_required": "Your name is required!",
   "user_subject_required": "The e-mail Subject is required!",
   "user_email_required": "Your e-mail is required!",

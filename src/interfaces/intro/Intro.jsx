@@ -16,12 +16,12 @@ function Intro() {
           <div className='intro-title'>
             <div className='intro-title-wrapper'>
              <div className='intro-title-item'>{t('job')}</div>
-             <div className='intro-title-item'>Bachelor of Computer Science</div>
-             <div className='intro-title-item'>Bachelor of Science and Technology</div>
+             <div className='intro-title-item'>{t('bcc')}</div>
+             <div className='intro-title-item'>{t('bct')}</div>
             </div>
           </div>
           <div className='intro-description'>
-            I develop full web softwares from Front-End to Back-End using React, Redux, Java, Quarkus and Mysql
+          {t('intro_description')}
           </div>
         </div>
      </div>
