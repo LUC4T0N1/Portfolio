@@ -8,11 +8,18 @@
   margin-left: 80px;
 
 
-  background: linear-gradient(
+/*   background: linear-gradient(
     to bottom right,
     rgb(114, 24, 51),
     rgb(12, 9, 10)
     );
+ */
+    /* background: linear-gradient(
+      to bottom right,
+      rgb(114, 24, 51),
+      rgb(199, 182, 188)
+      ); */
+    
   
 }
 
@@ -50,13 +57,8 @@
 .about-content{
   margin: 20px 20px 0px 0px;
   font-weight: 300;
-  color: rgb(255, 255, 254);
 }
 
-.about-title{
-
-  color: rgb(255, 255, 254);
-}
 
 @media screen and (max-width: 800px) {
   .about {

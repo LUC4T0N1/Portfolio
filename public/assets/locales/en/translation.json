@@ -1,4 +1,10 @@
 {
   "hello": "Hello, my name is",
-  "job": "Full-Stack Web Developer"
+  "job": "Full-Stack Web Developer",
+  "user_name_required": "Your name is required!",
+  "user_subject_required": "The e-mail Subject is required!",
+  "user_email_required": "Your e-mail is required!",
+  "invalid_user_email": "Invalid e-mail format!",
+  "message_required": "The message is required!",
+  "message_min_length": "The message must have at least 15 characters!"
 }

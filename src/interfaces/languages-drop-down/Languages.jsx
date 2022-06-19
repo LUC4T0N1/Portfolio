@@ -20,7 +20,7 @@ const Languages = () => {
 
   return (
     <div className="dropdown">
-      <button className="dropbtn"><img src={Globe} alt="" className="d-icon"/></button>
+      <button className="d-button"><img src={Globe} alt="" className="d-icon"/></button>
       <ul className="dropdown-content">
         {languages.map(({code, name, country_code}) => (
           <li key = {country_code}>
