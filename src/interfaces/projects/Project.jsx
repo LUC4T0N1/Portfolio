@@ -1,15 +1,15 @@
 import './Project.css';
 
-function Project({img, link}) {
+function Project({img, link, title, description}) {
   return (
     <div className="project">
       <div className='project-header'>
         {/* site: gofullpage */}
         <h1 className='project-title'>
-            Title
+            {title}
           </h1>
           <p className='project-desc'>
-          description of the project
+          {description}
           </p>
           <div className='project-browser'>
             <div className='project-circle'></div>

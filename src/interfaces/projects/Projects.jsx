@@ -14,7 +14,7 @@ function Projects() {
       </p>
       <div className='projects-list'>
         {projects.map(item=>(
-          <Project key={item.id} img={item.img} link = {item.link}/>
+          <Project key={item.id} img={item.img} link = {item.link} title = {item.title} description = {item.description}/>
         ))}
       </div>
     </div>

@@ -1,6 +1,6 @@
 import "./Toggle.css"
-import Sun from "../../img/sun.png";
-import Moon from "../../img/moon.png";
+import Sun from "../../assets/img/sun.png";
+import Moon from "../../assets/img/moon.png";
 import { ThemeContext } from "../../infrastructure/context";
 import { useContext } from "react";
 
