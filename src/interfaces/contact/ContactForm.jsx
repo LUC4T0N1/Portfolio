@@ -36,15 +36,15 @@ function ContactForm() {
         <input placeholder={t('subject_placeholder')} {...register('user_subject', { required: t('user_subject_required') })}/>
         {errors.user_subject?<p className='message'>{errors.user_subject.message}</p> : ""}
         <input placeholder="Email" {...register('user_email', { required: t('user_email_required'), pattern: {
-        value: /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+        value: /^(([^<>()[\]\\.,;:\s@]+(\.[^<>()[\]\\.,;:\s@]+)*)|(.+))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
         message:  t('invalid_user_email')
       } })}/>
         {errors.user_email?<p className='message'>{errors.user_email.message}</p> : ""}
         <textarea placeholder={t('message_placeholder')} rows="5" {...register('message', { required: t('message_required'), minLength: {value: 15, message: t('message_min_length')}})}></textarea>
         {errors.message?<p className='message'>{errors.message.message}</p> : ""}
-        <button className='contact-button'>Submit</button>
-        {done && "Thank you for your contact, i will answer your email as soon as possible!"}
-        {!success && <p className='message'>Something went wrong.. please try again later</p>}
+        <button className='contact-button'>{t('submit_button')}</button>
+        {done && t('email_sent')}
+        {!success && <p className='message'>{t('email_error')}</p>}
       </form>
     </div>
   );

@@ -19,7 +19,7 @@
 
 .about-right{
   flex: 1;
-  max-height: 400px;
+  max-height: 600px;
   overflow-y: auto;
 }
 
@@ -29,6 +29,8 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transform: rotate(0);
+  border-radius: 30px;
 }
 
 .about-card{
@@ -36,12 +38,18 @@
   height: 50vh;
   border-radius: 30px;
   position: absolute;
-  overflow: hidden;
+  background-color: rgb(37, 34, 34);
+}
+
+.me-img:hover{
+  transform: rotate(10deg);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .about-content{
   margin: 20px 20px 0px 0px;
-  font-weight: 300;
+  font-weight: 200;
+  font-size: larger;
 }
 
 
@@ -63,6 +71,12 @@
   .about-right{
     padding: 20px;
     margin-bottom: 20px;
+  }
+
+  .about-content{
+    margin: 0px;
+    font-weight: 100;
+    font-size: larger;
   }
 
 }

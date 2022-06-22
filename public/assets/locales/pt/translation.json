@@ -26,5 +26,8 @@
   "user_email_required": "Seu e-mail é obrigatório!",
   "invalid_user_email": "Formato do e-mail é inválido!",
   "message_required": "A mensagem é obrigatória!",
-  "message_min_length": "A mensagem Deve ter pelo menos 15 caracteres!"
+  "message_min_length": "A mensagem Deve ter pelo menos 15 caracteres!",
+  "submit_button": "Enviar",
+  "email_sent": "Obrigado pelo contato, irei te responder assim que possível!",
+  "email_error": "Algo deu errado.. tente novamente mais tarde"
 }

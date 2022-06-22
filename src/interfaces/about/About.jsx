@@ -3,6 +3,7 @@ import ME from '../../assets/img/me.PNG';
 import { ThemeContext } from "../../infrastructure/context";
 import { useContext } from "react";
 import {useTranslation} from 'react-i18next';
+import AboutCards from "./About_Cards";
 
 function About() {
   const theme =  useContext(ThemeContext);
@@ -16,6 +17,7 @@ function About() {
             <img 
             src={ME}
             className='me-img'
+            alt='Me'
             />
           </div>
         </div>
@@ -30,6 +32,7 @@ function About() {
           <p className='about-content'>
             {t('about_me_p3')}
           </p>
+          <AboutCards/>
         </div>
       </div>
   );

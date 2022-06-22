@@ -7,9 +7,9 @@
 
 
   "about_me": "About Me",
-  "about_me_p1": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-  "about_me_p2": "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
-  "about_me_p3": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+  "about_me_p1": "sssssssssss sssss ssssss sssssss ssssssssss ssssss sssssss sssssssssss \n ssssssssssssssssss sssssssss ssssss",
+  "about_me_p2": "zzzzzzzzzz zzzzzzz zzzzzz\nzzzzz zzzzzz zzzzzzzzzzzz zzzzzzzzzzz\nzzzzzzzz zzzzzzzzz zzzzzzzzzzzzzzzzzzzzzzzz",
+  "about_me_p3": "aaaaaaaaaa aaaaaaa aaaaaaaaa\naaaa aaaaaaaaaaaaaaaaa aaaaaaaaaaaaa\naaaaaaaaa  aaaaaa aaaaaaaaaaaaaaaaaaaa",
 
 
   "projects": "Here are my main projects",
@@ -26,5 +26,8 @@
   "user_email_required": "Your e-mail is required!",
   "invalid_user_email": "Invalid e-mail format!",
   "message_required": "The message is required!",
-  "message_min_length": "The message must have at least 15 characters!"
+  "message_min_length": "The message must have at least 15 characters!",
+  "submit_button": "Submit",
+  "email_sent": "Thank you for your contact, i will answer your email as soon as possible!",
+  "email_error": "Something went wrong.. please try again later"
 }
