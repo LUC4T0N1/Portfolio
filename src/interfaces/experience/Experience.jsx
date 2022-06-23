@@ -1,26 +1,29 @@
 import './Experience.css';
+import { ExperienceDataEN, ExperienceDataPT } from './experienceData';
+import {useTranslation} from 'react-i18next';
+import i18n from "i18next";
+import ExperienceCard from './ExperienceCard';
 
 function Experience() {
-
-  return (
-      <div className="exp" id='exp'>
-        <div className='about-left'>
-          <div className='about-background'></div>
-        </div>
-        <div className='about-right'>
-          <h1 className='about-title'>Experience</h1>
-          <p className='about-content'>
-            Estagio
-          </p>
-          <p className='about-content'>
-            Juniuoir
-          </p>
-          <p className='about-content'>
-            Sql
-          </p>
-        </div>
-      </div>
-  );
+  const {t} = useTranslation()
+  return(
+          <div id='exp' className='exp'>
+            <section className ="exp-title">
+              Experience And Education
+            </section>
+            <div className="container">
+              <div className="timeline">
+                <ul>
+                    {(i18n.language === 'en') ?  ExperienceDataEN.map(item=>(
+                      <ExperienceCard key={item.id} date={item.date} heading = {item.heading} content = {item.content} />
+                    )) : ExperienceDataPT.map(item =>(
+                      <ExperienceCard key={item.id} date={item.date} heading = {item.heading} content = {item.content}/>
+                    ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+  )
 }
 
 export default Experience;
