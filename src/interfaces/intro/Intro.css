@@ -1,7 +1,7 @@
 .intro{
   display:flex;
   height: 100vh;
-  padding: 80px;
+  padding: 0px 0px 0px 80px;
 }
 
 .intro-right{
@@ -74,14 +74,19 @@
   width: 2000px;
   height: 90%;
   position: absolute;
-  top: 0;
   right: 0;
-  z-index: 0;
+  margin-top: 60px;
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 800px) {
   .intro {
     flex-direction: column;
+    padding: 80px;
+  }
+
+  .intro-intro{
+    font-size: 22px;
   }
 
   .intro-left-wrapper {
@@ -108,7 +113,7 @@
   }
 
   .intro-background{
-  clip-path: polygon(74% 0, 74% 20%, 100% 20%, 58% 71%, 73% 70%, 71% 100%, 86% 47%);
+  clip-path: polygon(0 0);
   }
   
 }

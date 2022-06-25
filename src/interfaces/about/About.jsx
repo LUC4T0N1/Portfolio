@@ -9,7 +9,7 @@ function About() {
   const theme =  useContext(ThemeContext);
   const {t} = useTranslation()
   return (
-      <div className="about" style={{ background: theme.state.darkMode ?   "linear-gradient(to bottom right, rgb(114, 24, 51), rgb(12, 9, 10))" : "linear-gradient(to bottom right, rgb(114, 24, 51), rgb(252, 192, 213))" }}>
+      <div className="about" id='about' style={{ background: theme.state.darkMode ?   "linear-gradient(to bottom right, rgb(114, 24, 51), rgb(12, 9, 10))" : "linear-gradient(to bottom right, rgb(114, 24, 51), rgb(252, 192, 213))" }}>
         <div className='about-left'>
           <div className='about-background'></div>
           <div className='about-card bg'></div>
@@ -32,7 +32,7 @@ function About() {
           <p className='about-content'>
             {t('about_me_p3')}
           </p>
-          <AboutCards/>
+          {/* <AboutCards/> */}
         </div>
       </div>
   );

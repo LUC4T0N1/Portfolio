@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from "react-dom/client";
 import { ThemeProvider } from './infrastructure/context';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import HttpApi from 'i18next-http-backend';
@@ -27,13 +27,14 @@ i18n
     react: {useSuspense: false},
   });
 
-ReactDOM.render(
+  const root = ReactDOM.createRoot(document.getElementById("root"));
+
+  root.render(
   <React.StrictMode>
     <ThemeProvider>
       <App/>
     </ThemeProvider>
   </React.StrictMode>,
-  document.getElementById('root')
 );
 
 
