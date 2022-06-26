@@ -4,13 +4,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes, faBars } from '@fortawesome/free-solid-svg-icons'
 import Toggle from "../toggle/Toggle"; 
 import Languages from '../languages-drop-down/Languages';
-
+import {useTranslation} from 'react-i18next';
 
 
 const NavBar = () => {
 
   const [isMobile, setIsMobile] = useState(false);
-
+  const {t} = useTranslation()
   return (
     <nav className="navbar">
       <div className="nav-menu" id="nav-menu">
@@ -20,22 +20,19 @@ const NavBar = () => {
             <a href="#home" className="nav-link">Home</a>
           </li>
           <li className="nav-item">
-            <a href="#about" className="nav-link">About</a>
+            <a href="#about" className="nav-link">{t('nav_about')}</a>
           </li>
           <li className="nav-item">
-            <a href="#exp" className="nav-link">Experience</a>
+            <a href="#exp" className="nav-link">{t('nav_exp')}</a>
           </li>
           <li className="nav-item">
-            <a href="#skills" className="nav-link">Skills</a>
+            <a href="#skills" className="nav-link">{t('nav_skills')}</a>
           </li>
           <li className="nav-item">
-            <a href="#projects" className="nav-link">Projects</a>
-          </li>
-          <li className="nav-item">
-            <a href="#skills" className="nav-link">Resume</a>
+            <a href="#projects" className="nav-link">{t('nav_projects')}</a>
           </li>
           <li className="nav-item" id="last">
-            <a href="#contact" className="nav-link">Contact</a>
+            <a href="#contact" className="nav-link">{t('nav_contact')}</a>
           </li>
         </ul>
         <div>

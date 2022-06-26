@@ -2,6 +2,8 @@ import './Skills.css';
 import {frontEndSkills, backEndSkills, tools} from './my-skills'
 import Skill from './Skill';
 import {useState} from 'react';
+import {useTranslation} from 'react-i18next';
+
 
 function Skills() {
 
@@ -18,11 +20,11 @@ function Skills() {
     skills = tools.map(item=>(
       <Skill key={item.id} img={item.img} name = {item.name} level = {item.level}/>));
   }
-
+  const {t} = useTranslation()
   return (
       <div className="skills" id='skills'>
         <div className='skills-header'>
-          <h1>My skills</h1>
+          <h1>{t('skills_title')}</h1>
         </div>
         <div className='skills-selector'>
           <div className='skills-type'>

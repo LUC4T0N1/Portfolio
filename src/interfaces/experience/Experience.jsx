@@ -8,9 +8,9 @@ function Experience() {
   const {t} = useTranslation()
   return(
           <div id='exp' className='exp'>
-            <section className ="exp-title">
-              Experience And Education
-            </section>
+            <div className ="exp-title">
+             <h1>{t('exp_title')}</h1>
+            </div>
             <div className="container">
               <div className="timeline">
                 <ul>
