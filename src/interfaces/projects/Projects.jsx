@@ -13,14 +13,11 @@ function Projects() {
       <h1 className='projects-title'>
       {t('projects')}
       </h1>
-      <p className='projects-general-desc'>
-      {t('projects_general_desc')}
-      </p>
       <div className='projects-list'>
-        {(i18n.language === 'en') ?  projects.map(item=>(
-          <Project key={item.id} img={item.img} link = {item.link} title = {item.title} description = {item.description}/>
+        {(i18n.language === 'en') ? projects.map(item=>(
+          <Project key={item.id} img={item.img} tecnologies={item.tecnologies} github={item.github} link={item.link} title = {item.title} description = {item.description}/>
         )) : projetos.map(item=>(
-          <Project key={item.id} img={item.img} link = {item.link} title = {item.title} description = {item.description}/>
+          <Project key={item.id} img={item.img} tecnologies={item.tecnologies} github={item.github} link = {item.link} title = {item.title} description = {item.description}/>
         ))}
       </div>
     </div>

@@ -23,3 +23,8 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-button {
   display:none;
 }
+
+html{
+  font-family: 'Baloo 2', cursive;
+}
+

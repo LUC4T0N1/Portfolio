@@ -1,9 +1,9 @@
-.d-icon{
+.d-icon {
   width: 25px;
   height: 25px;
 }
 
-.d-button{
+.d-button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,24 +36,24 @@
   justify-content: center;
 }
 
-.dropdown-item{
+.dropdown-item {
   cursor: pointer;
   width: 95%;
 }
 
-.dropdown-item:hover{
+.dropdown-item:hover {
   background-color: rgb(175, 53, 83);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 913px) {
   .dropdown {
     position: fixed;
     top: 4px;
     left: 17px;
     width: 28px;
-  } 
+  }
 
-  .d-icon{
+  .d-icon {
     width: 21px;
     height: 21px;
   }
@@ -66,7 +66,7 @@
     width: 60px;
   }
 
-  .dropdown-item{
+  .dropdown-item {
     font-size: 10px;
     border: none;
     border-radius: 2px;
@@ -74,5 +74,4 @@
     border-style: solid;
     border-width: 1px;
   }
-
 }

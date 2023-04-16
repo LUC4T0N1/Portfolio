@@ -1,26 +1,22 @@
-.contact{
+.contact {
   height: 75vh;
   position: relative;
   padding: 80px;
 }
 
-.contact-background{
+.contact-background {
   width: 20px;
   height: 90%;
-  background: linear-gradient(
-    to left,
-    rgb(12, 9, 10),
-    rgb(190, 31, 79)
-    );
+  background: linear-gradient(to left, rgb(12, 9, 10), rgb(190, 31, 79));
   position: absolute;
 }
 
-.contact-wrapper{
- padding: 50px;
- display: flex;
+.contact-wrapper {
+  padding: 50px;
+  display: flex;
 }
 
-.animation{
+.animation {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,11 +26,11 @@
   margin-top: 100px;
 }
 
-.contact-left{
+.contact-left {
   flex: 1;
 }
 
-.contact-right{
+.contact-right {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -42,32 +38,29 @@
   justify-content: center;
 }
 
-.contact-title{
+.contact-title {
   font-size: 60px;
   width: 80%;
 }
 
-.contact-info-item{
+.contact-info-item {
   display: flex;
   align-items: center;
 }
 
-.contact-desc{
+.contact-desc {
   align-items: left;
   font-weight: 200;
 }
 
-
-
-@media screen and (max-width: 800px) {
-
-  .animation{
+@media screen and (max-width: 1230px) {
+  .animation {
     min-height: 30vh;
     margin-left: -100px;
     margin-top: 0;
   }
 
-  .contact{
+  .contact {
     padding: 0px;
     height: 120vh;
   }
@@ -77,29 +70,34 @@
     padding: 0px 50px;
   }
 
-  .contact-title{
+  .contact-title {
     font-size: 30px;
   }
 
-  .contact-info-item{
+  .contact-info-item {
     margin: 20px 0px;
     width: 100%;
   }
 
-  .contact-desc{
+  .contact-desc {
     display: none;
   }
 
-  form{
+  form {
     margin-top: 0px;
     display: flex;
     flex-wrap: wrap;
   }
 
-  input{
+  input {
     width: 35%;
     height: 40px;
     margin: 10px;
     margin-left: 0;
+  }
+}
+@media screen and (max-width: 340px) {
+  .contact-background {
+    width: 5px;
   }
 }

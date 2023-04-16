@@ -1,5 +1,4 @@
 {
-
   "nav_about": "Sobre",
   "nav_exp": "Experiência",
   "nav_skills": "Habilidades",
@@ -10,18 +9,14 @@
   "job": "Desenvolvedor Web Full-Stack",
   "bcc": "Bacharel em Ciência da Computação",
   "bct": "Bacharel em Ciência e Tecnologia",
-  "intro_description": "Eu estruturo e desenvolvo sistemas web completos, passando pelo banco de dados, back end e front end",
-
+  "intro_description": "Eu estruturo e desenvolvo sistemas web completos, desde o banco de dados até o front end, com especialidade no back end",
 
   "about_me": "Sobre Mim",
-  "about_me_p1": "Meu gosto por video games deu início à minha curiosidade por programação, que se tornou uma paixão desde que escrevi meu primeiro código, mais de 5 anos atrás.",
-  "about_me_p2": "Sempre buscando aprender mais todos os dias, para poder desenvolver sistemas cada vez melhores e que possam ajudar ainda mais as pessoas",
+  "about_me_p1": "Meu gosto por video games deu início à minha curiosidade por programação, que se tornou uma paixão desde que escrevi meu primeiro código em 2017.",
+  "about_me_p2": "Sempre fui um amante de tecnologia, e a ideia de desenvolver sistemas que possam ajudar e impactar diretamente na vida das pessoas me deixou apaixonado por programação. Sempre buscando aprender cada dia mais, para poder desenvolver sistemas cada vez melhores, que possam ajudar ainda mais as pessoas. Minha principal qualidade é a capacidade de aprender e se adaptar rapidamente a novas tecnologias.",
   "about_me_p3": "Tudo é melhor quando se trabalha com o que ama.",
 
-
   "projects": "Esses são meus principais projetos",
-  "projects_general_desc": "",
-
   "my_contacts": "Meus Contatos",
   "contact_desc": "Achou meu trabalho interessante? Vamos conversar! Me envie um e-mail com suas idéias.",
 
@@ -38,10 +33,13 @@
   "email_sent": "Obrigado pelo contato, irei te responder assim que possível!",
   "email_error": "Algo deu errado.. tente novamente mais tarde",
 
-  "exp_title" : "Experiência e Educação",
+  "exp_title": "Experiência e Educação",
 
   "skills_title": "Principais Habilidades",
 
-  "resume": "CURRÍCULO"
+  "resume": "CURRÍCULO",
 
+  "code": "CÓDIGO FONTE",
+  "demo": "TESTAR SITE",
+  "tec-used": "Principais Tecnologias Utilizadas: "
 }

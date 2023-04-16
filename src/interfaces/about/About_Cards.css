@@ -1,4 +1,4 @@
-.cards{
+.cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -7,7 +7,7 @@
   padding-right: 10%;
 }
 
-.card{
+.card {
   cursor: pointer;
   border-radius: 15px;
   padding: 2%;
@@ -15,25 +15,20 @@
   margin-top: 15%;
   width: 16%;
   text-align: center;
-  background: radial-gradient(
-    rgb(100, 34, 53),
-
-    rgb(8, 5, 6)
-    );
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+  background: radial-gradient(rgb(100, 34, 53), rgb(8, 5, 6));
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
-.icon{
+.icon {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 1.3rem;
   margin-top: 5px;
 }
 
-
-@media screen and (max-width: 800px) {
-  .cards{
+@media screen and (max-width: 913px) {
+  .cards {
     padding-right: 0%;
   }
   .card {
