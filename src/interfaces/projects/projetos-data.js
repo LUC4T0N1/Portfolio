@@ -17,6 +17,6 @@ export const projetos = [
     github: "https://github.com/LUC4T0N1/Multiplayer-AI-Tic-Tac-Toe",
     title: "Multiplayer Tic Tac Toe",
     description:
-      "Um sistema que te permite jogar o jogo da velha de diversas maneiras. Ele utiliza alguns algoritmos de inteligência artificial, o que te permite jogar sozinho contra o computador em 3 diferentes dificuldades. Além disso, é utilizado o Socket.IO para a implementação de um modo multiplayer, o que permite jogar contra outra pessoa, seja ela um oponente aleatório ou um amigo específico.",
+      "Um sistema que te permite jogar o jogo da velha de diversas maneiras. Ele utiliza alguns algoritmos de inteligência artificial, o que te permite jogar sozinho contra o computador em 3 diferentes dificuldades. Além disso, é utilizado o Socket.IO para a implementação de um modo multiplayer, o que permite jogar contra outra pessoa enquanto conversa com ela por um chat, seja ela um oponente aleatório ou um amigo específico.",
   },
 ];
