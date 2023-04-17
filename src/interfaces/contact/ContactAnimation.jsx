@@ -11,7 +11,7 @@ function ContactAnimation() {
     <div className="loader">
       <a
         href={
-          i18n.language == "en" ? "assets/Resume.pdf" : "assets/Curriculo.pdf"
+          i18n.language === "en" ? "assets/Resume.pdf" : "assets/Curriculo.pdf"
         }
         download
         style={{ "--i": 3 }}
