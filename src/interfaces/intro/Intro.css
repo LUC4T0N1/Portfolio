@@ -26,14 +26,7 @@
 .intro-intro {
   font-size: 50px;
   font-weight: 300;
-
-  background: linear-gradient(
-    121.57deg,
-    #a39898 18.77%,
-    rgba(41, 35, 36, 0.66) 60.15%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: rgb(124, 124, 124);
 }
 
 .intro-name {
