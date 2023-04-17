@@ -18,7 +18,10 @@ function ContactAnimation() {
       >
         {t("resume")}
         <i>
-          <FontAwesomeIcon icon={faDownload} className="icon"></FontAwesomeIcon>
+          <FontAwesomeIcon
+            icon={faDownload}
+            className="icon-animation"
+          ></FontAwesomeIcon>
         </i>
       </a>
       <a
@@ -32,7 +35,7 @@ function ContactAnimation() {
           <FontAwesomeIcon
             icon={faGithub}
             rel="noreferrer"
-            className="icon"
+            className="icon-animation"
           ></FontAwesomeIcon>
         </i>
       </a>
@@ -44,7 +47,10 @@ function ContactAnimation() {
       >
         LINKEDIN
         <i>
-          <FontAwesomeIcon icon={faLinkedin} className="icon"></FontAwesomeIcon>
+          <FontAwesomeIcon
+            icon={faLinkedin}
+            className="icon-animation"
+          ></FontAwesomeIcon>
         </i>
       </a>
     </div>

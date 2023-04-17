@@ -19,6 +19,10 @@
   }
 }
 
+.icon-animation {
+  margin-left: 8px;
+}
+
 .loader a {
   position: relative;
   width: 200px;
