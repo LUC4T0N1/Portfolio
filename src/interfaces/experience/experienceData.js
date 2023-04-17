@@ -16,7 +16,7 @@ export const ExperienceDataEN = [
     id: 3,
     date: 2020,
     heading: "I started in the labor market",
-    content: "I got the intern position as a Full-Stack Developer",
+    content: "Hired as an intern in the web development area",
   },
   {
     id: 4,
@@ -28,7 +28,7 @@ export const ExperienceDataEN = [
   {
     id: 5,
     date: 2022,
-    heading: "First Promotion at Work, Second Graduation",
+    heading: "First Promotion, Second Graduation",
     content:
       "I was promoted to mid-level developer. I graduated with a Bachelor degree in Computer Science. I started working on my portfolio and personal projects",
   },
@@ -52,7 +52,7 @@ export const ExperienceDataPT = [
     id: 3,
     date: 2020,
     heading: "Iniciei no mercado de trabalho",
-    content: "Obtive o cargo de estagiário como desenvolvedor Full-Stack",
+    content: "Contratado como estagiário na área de desenvolvimento web",
   },
   {
     id: 4,
@@ -64,7 +64,7 @@ export const ExperienceDataPT = [
   {
     id: 5,
     date: 2022,
-    heading: "Primeira Promoção no Trabalho, Segunda Graduação",
+    heading: "Primeira Promoção, Segunda Graduação",
     content:
       "Fui promovido para desenvolvedor pleno. Me Graduei no Bacharelado em Ciência da Computação. Comecei a trabalhar no meu portfolio e projetos pessoais",
   },
