@@ -12,7 +12,7 @@ export const projetos = [
   {
     id: 2,
     img: "tictactoe",
-    link: "https://socket-tic-tac-toe.netlify.app/",
+    link: "https://online-tictactoe.netlify.app/",
     tecnologies: "React | Javascript | Node | Socket.IO",
     github: "https://github.com/LUC4T0N1/Multiplayer-AI-Tic-Tac-Toe",
     title: "Multiplayer Tic Tac Toe",
