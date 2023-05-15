@@ -12,10 +12,10 @@ In this website you can switch between portuguese and english languages, and dar
 ![Navbar](https://github.com/LUC4T0N1/projects-prints/raw/master/portfolio/NavBar-Buttons.png)
 
 ## Mobile Layout
-![Navbar](https://github.com/LUC4T0N1/projects-prints/raw/master/portfolio/LayoutMobile.png)
+![Mobile](https://github.com/LUC4T0N1/projects-prints/raw/master/portfolio/LayoutMobile.png)
 
 ## Web Layout
-![web](https://github.com/LUC4T0N1/projects-prints/raw/master/portfolio/LayoutWeb.png)
+![Web](https://github.com/LUC4T0N1/projects-prints/raw/master/portfolio/LayoutWeb.png)
 
 ## Used Technologies
 
