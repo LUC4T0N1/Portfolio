@@ -2,7 +2,7 @@ export const ExperienceDataEN = [
   {
     id: 1,
     date: 2017,
-    heading: "Started college",
+    heading: "Started university",
     content:
       "I started my journey at Universidade Federal do ABC, wrote my first line of code and fell in love with programming",
   },
