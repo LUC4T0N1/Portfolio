@@ -8,7 +8,7 @@ export const projects = [
     title: "Learn By Doing",
     youtube: "https://youtube.com",
     description:
-      "An educational system focused on user learning. It provides an environment where any user can create and resolve tests on any subject. Right after the completion, it is possible to see the answers and even the correction of the test performed. The system has a wide search engine, which facilitates the search for testes and subjects, in addition to allowing the use of questions created by other users in your own tests.",
+      "An educational system focused on user learning. It provides an environment where any user can create and resolve tests on any subject. Right after the completion, it is possible to see the answers and even the correction of the test performed. The system has a wide search engine, which facilitates the search for tests and subjects, in addition to allowing the use of questions created by other users in your own tests.",
   },
   {
     id: 2,
